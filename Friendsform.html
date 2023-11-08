@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Friends</title>
+</head>
+<body>
+    <h1>Formulario sobre Friends</h1>
+    <h3>Teste seu conhecimento sobre a serie Friends</h3>
+    <form action="#" method="get" >
+        <p>Conte sobre você:</p>
+        <label>Nome: </label><input type="text"> <br> <br>
+        <label>Idade: </label><input type="number" min="16" max="80"><br> <br>
+        <label>Telefone: </label><input type="tel"> <br> <br>
+        <label>Foto sua: </label><input type="file"> <br> <br>
+        <label>Em qual dia você está respondendo esse formulário?</label>
+        <input type="date"><br> <br>
+        
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar dados</button>
+    
+        <h3>Quais desses personagens você gosta?</h3> 
+        <label>Selecione quantos quiser:</label> <br>
+        <input type="checkbox" name="personagens[]" value="Monica"> Monica <br>
+        <input type="checkbox" name="personagens[]" value="Rachel"> Rachel <br>
+        <input type="checkbox" name="personagens[]" value="Phoebe"> Phoebe <br>
+        <input type="checkbox" name="personagens[]" value="Chandler"> Chandler <br>
+        <input type="checkbox" name="personagens[]" value="Ross"> Ross <br>
+        <input type="checkbox" name="personagens[]" value="Joey"> Joey <br>
+
+        <h3>Agora, selecione qual é o seu favorito</h3>
+        <p>Escolha somente <b>uma</b> opção: </p>
+
+        <input type="radio" name="personagens[]" value="Monica"> Monica <br>
+        <input type="radio" name="personagens[]" value="Rachel"> Rachel <br>
+        <input type="radio" name="personagens[]" value="Phoebe"> Phoebe <br>
+        <input type="radio" name="personagens[]" value="Chandler"> Chandler <br>
+        <input type="radio" name="personagens[]" value="Ross"> Ross <br>
+        <input type="radio" name="personagens[]" value="Joey"> Joey <br>
+
+         <h3>Agora responda algumas perguntas sobre a série:</h3>
+
+         <label>Qual o nome da cafeteria que os personagens se reunem?</label> 
+         <input type="text"> <br> <br>
+         <label>Qual o primeiro casal que se formou na série entre os personagens principais?</label> <br>
+         <input type="radio" name="casal" value="Phoebe e Chandler">Phoebe e Chandler <br>
+         <input type="radio" name="casal" value="Mônica e Joey">Mônica e Joey <br>
+         <input type="radio" name="casal" value="Rachel e Ross">Rachel e Ross <br>
+         <input type="radio" name="casal" value="Chandler e Joey">Chandler e Joey <br>
+
+         <button type="reset">Limpar</button> <button type="submit">Enviar</button>
+        
+
+    </form>
+</html>
